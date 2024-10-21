@@ -1,0 +1,907 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C55AFD332CBF1D3E003E9B37 /* DislikeRevealer Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C55AFD322CBF1D3E003E9B37 /* DislikeRevealer Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C55AFD3D2CBF1D3E003E9B37 /* DislikeRevealer Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C55AFD3C2CBF1D3E003E9B37 /* DislikeRevealer Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C55AFD342CBF1D3E003E9B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C55AFCF82CBF1D3D003E9B37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C55AFD312CBF1D3E003E9B37;
+			remoteInfo = "DislikeRevealer Extension (iOS)";
+		};
+		C55AFD3E2CBF1D3E003E9B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C55AFCF82CBF1D3D003E9B37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C55AFD3B2CBF1D3E003E9B37;
+			remoteInfo = "DislikeRevealer Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C55AFD662CBF1D3F003E9B37 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C55AFD332CBF1D3E003E9B37 /* DislikeRevealer Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55AFD702CBF1D3F003E9B37 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C55AFD3D2CBF1D3E003E9B37 /* DislikeRevealer Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C55AFD142CBF1D3E003E9B37 /* DislikeRevealer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DislikeRevealer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55AFD262CBF1D3E003E9B37 /* DislikeRevealer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DislikeRevealer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55AFD322CBF1D3E003E9B37 /* DislikeRevealer Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DislikeRevealer Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55AFD3C2CBF1D3E003E9B37 /* DislikeRevealer Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DislikeRevealer Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C55AFD612CBF1D3F003E9B37 /* Exceptions for "Shared (App)" folder in "DislikeRevealer (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Resources/Main.html",
+				Assets.xcassets,
+				Resources/Icon.png,
+				Resources/Script.js,
+				Resources/Style.css,
+				ViewController.swift,
+			);
+			target = C55AFD132CBF1D3E003E9B37 /* DislikeRevealer (iOS) */;
+		};
+		C55AFD652CBF1D3F003E9B37 /* Exceptions for "iOS (Extension)" folder in "DislikeRevealer Extension (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C55AFD312CBF1D3E003E9B37 /* DislikeRevealer Extension (iOS) */;
+		};
+		C55AFD6A2CBF1D3F003E9B37 /* Exceptions for "iOS (App)" folder in "DislikeRevealer (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C55AFD132CBF1D3E003E9B37 /* DislikeRevealer (iOS) */;
+		};
+		C55AFD6B2CBF1D3F003E9B37 /* Exceptions for "Shared (App)" folder in "DislikeRevealer (macOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Resources/Main.html",
+				Assets.xcassets,
+				Resources/Icon.png,
+				Resources/Script.js,
+				Resources/Style.css,
+				ViewController.swift,
+			);
+			target = C55AFD252CBF1D3E003E9B37 /* DislikeRevealer (macOS) */;
+		};
+		C55AFD6F2CBF1D3F003E9B37 /* Exceptions for "macOS (Extension)" folder in "DislikeRevealer Extension (macOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C55AFD3B2CBF1D3E003E9B37 /* DislikeRevealer Extension (macOS) */;
+		};
+		C55AFD742CBF1D3F003E9B37 /* Exceptions for "Shared (Extension)" folder in "DislikeRevealer Extension (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/_locales,
+				Resources/background.js,
+				Resources/content.js,
+				Resources/images,
+				Resources/manifest.json,
+				SafariWebExtensionHandler.swift,
+			);
+			target = C55AFD312CBF1D3E003E9B37 /* DislikeRevealer Extension (iOS) */;
+		};
+		C55AFD752CBF1D3F003E9B37 /* Exceptions for "Shared (Extension)" folder in "DislikeRevealer Extension (macOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/_locales,
+				Resources/background.js,
+				Resources/content.js,
+				Resources/images,
+				Resources/manifest.json,
+				SafariWebExtensionHandler.swift,
+			);
+			target = C55AFD3B2CBF1D3E003E9B37 /* DislikeRevealer Extension (macOS) */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C55AFCFC2CBF1D3D003E9B37 /* Shared (App) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C55AFD612CBF1D3F003E9B37 /* Exceptions for "Shared (App)" folder in "DislikeRevealer (iOS)" target */,
+				C55AFD6B2CBF1D3F003E9B37 /* Exceptions for "Shared (App)" folder in "DislikeRevealer (macOS)" target */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		C55AFD052CBF1D3E003E9B37 /* Shared (Extension) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C55AFD742CBF1D3F003E9B37 /* Exceptions for "Shared (Extension)" folder in "DislikeRevealer Extension (iOS)" target */,
+				C55AFD752CBF1D3F003E9B37 /* Exceptions for "Shared (Extension)" folder in "DislikeRevealer Extension (macOS)" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		C55AFD162CBF1D3E003E9B37 /* iOS (App) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C55AFD6A2CBF1D3F003E9B37 /* Exceptions for "iOS (App)" folder in "DislikeRevealer (iOS)" target */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		C55AFD272CBF1D3E003E9B37 /* macOS (App) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		C55AFD362CBF1D3E003E9B37 /* iOS (Extension) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C55AFD652CBF1D3F003E9B37 /* Exceptions for "iOS (Extension)" folder in "DislikeRevealer Extension (iOS)" target */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		C55AFD402CBF1D3E003E9B37 /* macOS (Extension) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C55AFD6F2CBF1D3F003E9B37 /* Exceptions for "macOS (Extension)" folder in "DislikeRevealer Extension (macOS)" target */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C55AFD112CBF1D3E003E9B37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55AFD232CBF1D3E003E9B37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55AFD2F2CBF1D3E003E9B37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55AFD392CBF1D3E003E9B37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C55AFCF72CBF1D3D003E9B37 = {
+			isa = PBXGroup;
+			children = (
+				C55AFCFC2CBF1D3D003E9B37 /* Shared (App) */,
+				C55AFD052CBF1D3E003E9B37 /* Shared (Extension) */,
+				C55AFD162CBF1D3E003E9B37 /* iOS (App) */,
+				C55AFD272CBF1D3E003E9B37 /* macOS (App) */,
+				C55AFD362CBF1D3E003E9B37 /* iOS (Extension) */,
+				C55AFD402CBF1D3E003E9B37 /* macOS (Extension) */,
+				C55AFD152CBF1D3E003E9B37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C55AFD152CBF1D3E003E9B37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C55AFD142CBF1D3E003E9B37 /* DislikeRevealer.app */,
+				C55AFD262CBF1D3E003E9B37 /* DislikeRevealer.app */,
+				C55AFD322CBF1D3E003E9B37 /* DislikeRevealer Extension.appex */,
+				C55AFD3C2CBF1D3E003E9B37 /* DislikeRevealer Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C55AFD132CBF1D3E003E9B37 /* DislikeRevealer (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55AFD672CBF1D3F003E9B37 /* Build configuration list for PBXNativeTarget "DislikeRevealer (iOS)" */;
+			buildPhases = (
+				C55AFD102CBF1D3E003E9B37 /* Sources */,
+				C55AFD112CBF1D3E003E9B37 /* Frameworks */,
+				C55AFD122CBF1D3E003E9B37 /* Resources */,
+				C55AFD662CBF1D3F003E9B37 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C55AFD352CBF1D3E003E9B37 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C55AFD162CBF1D3E003E9B37 /* iOS (App) */,
+			);
+			name = "DislikeRevealer (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "DislikeRevealer (iOS)";
+			productReference = C55AFD142CBF1D3E003E9B37 /* DislikeRevealer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C55AFD252CBF1D3E003E9B37 /* DislikeRevealer (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55AFD712CBF1D3F003E9B37 /* Build configuration list for PBXNativeTarget "DislikeRevealer (macOS)" */;
+			buildPhases = (
+				C55AFD222CBF1D3E003E9B37 /* Sources */,
+				C55AFD232CBF1D3E003E9B37 /* Frameworks */,
+				C55AFD242CBF1D3E003E9B37 /* Resources */,
+				C55AFD702CBF1D3F003E9B37 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C55AFD3F2CBF1D3E003E9B37 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C55AFD272CBF1D3E003E9B37 /* macOS (App) */,
+			);
+			name = "DislikeRevealer (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "DislikeRevealer (macOS)";
+			productReference = C55AFD262CBF1D3E003E9B37 /* DislikeRevealer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C55AFD312CBF1D3E003E9B37 /* DislikeRevealer Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55AFD622CBF1D3F003E9B37 /* Build configuration list for PBXNativeTarget "DislikeRevealer Extension (iOS)" */;
+			buildPhases = (
+				C55AFD2E2CBF1D3E003E9B37 /* Sources */,
+				C55AFD2F2CBF1D3E003E9B37 /* Frameworks */,
+				C55AFD302CBF1D3E003E9B37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C55AFD362CBF1D3E003E9B37 /* iOS (Extension) */,
+			);
+			name = "DislikeRevealer Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "DislikeRevealer Extension (iOS)";
+			productReference = C55AFD322CBF1D3E003E9B37 /* DislikeRevealer Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C55AFD3B2CBF1D3E003E9B37 /* DislikeRevealer Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55AFD6C2CBF1D3F003E9B37 /* Build configuration list for PBXNativeTarget "DislikeRevealer Extension (macOS)" */;
+			buildPhases = (
+				C55AFD382CBF1D3E003E9B37 /* Sources */,
+				C55AFD392CBF1D3E003E9B37 /* Frameworks */,
+				C55AFD3A2CBF1D3E003E9B37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C55AFD402CBF1D3E003E9B37 /* macOS (Extension) */,
+			);
+			name = "DislikeRevealer Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "DislikeRevealer Extension (macOS)";
+			productReference = C55AFD3C2CBF1D3E003E9B37 /* DislikeRevealer Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C55AFCF82CBF1D3D003E9B37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					C55AFD132CBF1D3E003E9B37 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					C55AFD252CBF1D3E003E9B37 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					C55AFD312CBF1D3E003E9B37 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					C55AFD3B2CBF1D3E003E9B37 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = C55AFCFB2CBF1D3D003E9B37 /* Build configuration list for PBXProject "DislikeRevealer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C55AFCF72CBF1D3D003E9B37;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C55AFD152CBF1D3E003E9B37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C55AFD132CBF1D3E003E9B37 /* DislikeRevealer (iOS) */,
+				C55AFD252CBF1D3E003E9B37 /* DislikeRevealer (macOS) */,
+				C55AFD312CBF1D3E003E9B37 /* DislikeRevealer Extension (iOS) */,
+				C55AFD3B2CBF1D3E003E9B37 /* DislikeRevealer Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C55AFD122CBF1D3E003E9B37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55AFD242CBF1D3E003E9B37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55AFD302CBF1D3E003E9B37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55AFD3A2CBF1D3E003E9B37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C55AFD102CBF1D3E003E9B37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55AFD222CBF1D3E003E9B37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55AFD2E2CBF1D3E003E9B37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55AFD382CBF1D3E003E9B37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C55AFD352CBF1D3E003E9B37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C55AFD312CBF1D3E003E9B37 /* DislikeRevealer Extension (iOS) */;
+			targetProxy = C55AFD342CBF1D3E003E9B37 /* PBXContainerItemProxy */;
+		};
+		C55AFD3F2CBF1D3E003E9B37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C55AFD3B2CBF1D3E003E9B37 /* DislikeRevealer Extension (macOS) */;
+			targetProxy = C55AFD3E2CBF1D3E003E9B37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C55AFD632CBF1D3F003E9B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RSGP9843T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DislikeRevealer Extension";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adil.DislikeRevealer.Extension;
+				PRODUCT_NAME = "DislikeRevealer Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C55AFD642CBF1D3F003E9B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RSGP9843T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DislikeRevealer Extension";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adil.DislikeRevealer.Extension;
+				PRODUCT_NAME = "DislikeRevealer Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C55AFD682CBF1D3F003E9B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RSGP9843T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DislikeRevealer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adil.DislikeRevealer;
+				PRODUCT_NAME = DislikeRevealer;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C55AFD692CBF1D3F003E9B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RSGP9843T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DislikeRevealer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adil.DislikeRevealer;
+				PRODUCT_NAME = DislikeRevealer;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C55AFD6D2CBF1D3F003E9B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/DislikeRevealer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RSGP9843T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DislikeRevealer Extension";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adil.DislikeRevealer.Extension;
+				PRODUCT_NAME = "DislikeRevealer Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C55AFD6E2CBF1D3F003E9B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/DislikeRevealer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RSGP9843T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DislikeRevealer Extension";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adil.DislikeRevealer.Extension;
+				PRODUCT_NAME = "DislikeRevealer Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C55AFD722CBF1D3F003E9B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/DislikeRevealer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RSGP9843T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DislikeRevealer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adil.DislikeRevealer;
+				PRODUCT_NAME = DislikeRevealer;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C55AFD732CBF1D3F003E9B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/DislikeRevealer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RSGP9843T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DislikeRevealer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adil.DislikeRevealer;
+				PRODUCT_NAME = DislikeRevealer;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C55AFD762CBF1D3F003E9B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C55AFD772CBF1D3F003E9B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C55AFCFB2CBF1D3D003E9B37 /* Build configuration list for PBXProject "DislikeRevealer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55AFD762CBF1D3F003E9B37 /* Debug */,
+				C55AFD772CBF1D3F003E9B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55AFD622CBF1D3F003E9B37 /* Build configuration list for PBXNativeTarget "DislikeRevealer Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55AFD632CBF1D3F003E9B37 /* Debug */,
+				C55AFD642CBF1D3F003E9B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55AFD672CBF1D3F003E9B37 /* Build configuration list for PBXNativeTarget "DislikeRevealer (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55AFD682CBF1D3F003E9B37 /* Debug */,
+				C55AFD692CBF1D3F003E9B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55AFD6C2CBF1D3F003E9B37 /* Build configuration list for PBXNativeTarget "DislikeRevealer Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55AFD6D2CBF1D3F003E9B37 /* Debug */,
+				C55AFD6E2CBF1D3F003E9B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55AFD712CBF1D3F003E9B37 /* Build configuration list for PBXNativeTarget "DislikeRevealer (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55AFD722CBF1D3F003E9B37 /* Debug */,
+				C55AFD732CBF1D3F003E9B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C55AFCF82CBF1D3D003E9B37 /* Project object */;
+}
