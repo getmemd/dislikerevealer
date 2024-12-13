@@ -9,6 +9,7 @@ import WebKit
 
 #if os(iOS)
 import UIKit
+import SwiftUI
 typealias PlatformViewController = UIViewController
 #elseif os(macOS)
 import Cocoa
@@ -24,22 +25,26 @@ class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMess
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.webView.navigationDelegate = self
-
 #if os(iOS)
-        self.webView.scrollView.isScrollEnabled = false
-#endif
-
+        let childVC = UIHostingController(rootView: AppView())
+        addChild(childVC)
+        view.addSubview(childVC.view)
+        NSLayoutConstraint.activate([
+            childVC.view.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            childVC.view.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            childVC.view.topAnchor.constraint(equalTo: view.topAnchor),
+            childVC.view.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+        ])
+        childVC.view.translatesAutoresizingMaskIntoConstraints = false
+#elseif os(macOS)
+        self.webView.navigationDelegate = self
         self.webView.configuration.userContentController.add(self, name: "controller")
-
         self.webView.loadFileURL(Bundle.main.url(forResource: "Main", withExtension: "html")!, allowingReadAccessTo: Bundle.main.resourceURL!)
+#endif
     }
 
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-#if os(iOS)
-        webView.evaluateJavaScript("show('ios')")
-#elseif os(macOS)
+#if os(macOS)
         webView.evaluateJavaScript("show('mac')")
 
         SFSafariExtensionManager.getStateOfSafariExtension(withIdentifier: extensionBundleIdentifier) { (state, error) in
